@@ -11,12 +11,40 @@
 .side_header {
    height: 100px;
    padding: 0 20px;
+   background-color: #253141;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.user_name a{
+   font-size: 16px;
+   color: #fafafa;
+   text-decoration: none;
+}
+
+.create_room a{
+   padding: 14px;
+   font-size: 10px;
+   color: deepskyblue;
+   text-decoration: none;
+   border: 1px solid lightblue;
 }
 
 .rooms{
    background-color: #2f3e51;
    height: calc(100vh - 100px);
    padding: 0 20px;
+   overflow: scroll;
+}
+
+.room_name a{
+   color: white;
+   text-decoration: none;
+}
+
+.room {
+   margin: 20px 0 40px;
 }
 
 
